@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* -webkit-appearance: none; */
+  font-family:  Helvetica, sans-serif;
+  font-weight: 300;
+}
+label{
+  cursor: pointer;
+}
+.title{
+  height: 30px;
+  width: 100%;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+  
+}
+.discription{
+
+  width: 100%;
+  height: 10px;
+  margin-bottom: 10px;
+}
+
+.heading{
+  height: 60px;
+  width: 100%;
+  font-size: 45px;
+  font-weight: 400;
+  color: rgb(23, 23, 23);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.form{
+  height: 30px;
+  width: 100%;
+  padding: 0px;
+}
+.smallText{
+  height: 20px;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 300;
+  color: rgb(105, 105, 105);
+  margin-top: 20px;
+}

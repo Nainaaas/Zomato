@@ -1,0 +1,129 @@
+.footer{
+  
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: rgb(248, 248, 248);
+
+}
+.footer-flex{
+  height:fit-content;
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.footer-top-section{
+  height: 50px;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+
+}
+.zomato-logo-footer{
+
+  flex: 2;
+  height: 50px;
+  object-fit: contain;
+}
+.logo-image-footer{
+  height: 50px;
+  border-radius: 10px;
+  object-fit: scale-down;
+  cursor: pointer;
+  max-width: 100%;
+  
+
+}
+.right-footer-top{
+  height: 40;
+  flex: 1;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+
+}
+.icon-text-arrow{
+  width: 125x;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 5px;
+  
+  align-items: center;
+  border: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  border-color: rgb(232, 232, 232);
+
+}
+.iconImg{
+  width: 20px;
+  height: fill;
+  padding:8px;
+  cursor: pointer;
+}
+.footer-content{
+  height: 300px;
+  width: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+  column-gap: 20px;
+  row-gap: 20px;
+
+  
+
+}
+.footerGrid{
+  height: 300px;
+
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  
+  margin-top: 20px;
+  
+}
+.footerTitle{
+  height: 30px;
+  width: 100%;
+  font-size: 18px;
+  font-weight: 300;
+  color: rgb(23, 23, 23);
+  margin-top: 20px;
+  
+  
+}
+.footerSmallText{
+  
+    height: 20px;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 300;
+    color: rgb(105, 105, 105);
+    cursor: pointer;
+    
+ 
+}
+.socialLink{
+  height: 40px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  column-gap: 10px;
+  cursor: pointer;
+}
+.socialiconImg{
+  width: 20px;
+  height: fill;
+  cursor: pointer;
+  
+}

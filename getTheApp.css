@@ -1,0 +1,128 @@
+.get-the-app{
+   height: 500px;
+  /* margin-top: 200px;
+  margin-left: 200px;
+  margin-right: 200px; */
+  
+  background-color: rgb(255, 251, 247);
+  
+
+}
+
+.container-flex{
+  height: 500px;
+  margin-top: 100px;
+  margin-left: 200px;
+  margin-right: 200px;
+  
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.getTheApp-left-section{
+  padding-top: 60px;
+  width: 270px;
+  height: 280px;
+  display: block;
+  object-fit: fill;
+  
+
+}
+.getThAppImage{
+  height: 280px;
+  
+  object-fit: cover-down;
+}
+.getTheApp-right-section{
+flex: 1;
+
+
+display: flex;
+flex-direction: column;
+row-gap: 20px;
+justify-content: space-evenly;
+
+}
+/* Hide the default radio buttons */
+input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Style the custom radio container */
+.radio-container {
+  position: relative;
+  padding-left: 30px; /* Adjust this for the desired size */
+  cursor: pointer;
+}
+
+/* Style the custom radio checkmark */
+.radio-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px; /* Adjust the size as needed */
+  width: 15px; /* Adjust the size as needed */
+  background-color: #fff; /* Background color for unchecked state */
+  border: 2px solid rgb(230, 82, 82); /* Border color */
+  border-radius: 50%;
+}
+
+/* Style the custom radio checkmark when the radio button is checked */
+input[type="radio"]:checked + .radio-checkmark {
+  background-color: rgb(230, 82, 82); /* Background color for checked state */
+}
+
+.radio-button-view{
+  width: 100%;
+  height: 60px;
+  margin-top: 50px;
+}
+.txtview-button{
+  width: 100%;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+.textView-GetTheAPP{
+  flex: 1;
+  height: 50px;
+  border-radius: 10px;
+  border: solid;
+  border-color: rgb(243, 243, 243);
+  border-width: 1px;
+  padding-left: 10px;
+  font-size: large;
+
+}
+.button-getTheAPP{
+  width: 150px;
+  height: 50px;
+  background-color: rgb(224, 53, 70);
+  border: none;
+  color: white;
+  font-size: large;
+  padding-left: 10px;
+  border-radius: 10px;
+}
+.store{
+  width: 50%;
+  height: 40px;
+
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  max-width: 80%;
+  
+
+}
+.store-image{
+  flex:1;
+  height: 40px;
+  max-width: 80%;
+}
